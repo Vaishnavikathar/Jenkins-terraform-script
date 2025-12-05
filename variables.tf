@@ -37,14 +37,3 @@ variable "image" {
   type        = string
   default     = "debian-cloud/debian-11"
 }
-
-variable "ssh_username" {
-  description = "SSH username"
-  type        = string
-  default     = "ubuntu"
-}
-
-variable "ssh_public_key" {
-  description = "Public key path"
-  type        = string
-}
