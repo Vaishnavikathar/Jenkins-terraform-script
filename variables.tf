@@ -1,4 +1,4 @@
-variable "project_id" {
+variable "PROJECT_ID" {
   description = "Google Cloud project ID"
   type        = string
 }
@@ -15,7 +15,7 @@ variable "zone" {
   default     = "us-central1-a"
 }
 
-variable "credentials_file" {
+variable "GOOGLE_CREDENTIALS" {
   description = "Path to SA JSON"
   type        = string
 }
